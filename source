@@ -87,3 +87,34 @@ GAME:NewButton("hulk u hub", "best thai kid", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/HULKFree-Script/main/HULKUHUB")()
 end)
 
+local GAME = Tab:NewSection("ASTD")
+
+GAME:NewButton("River Hub(best)", "Can marco!?!", function()
+    pcall(function()
+   loadstring(game:HttpGet("http://riverhub.xyz/" .. tostring(game.PlaceId) .. ".lua"))()
+end)
+
+local GAME = Tab:NewSection("Bedwars")
+
+GAME:NewButton("New Red ui bedwars", "Newest script", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/HULKFree-Script/main/HULKUHUB")()
+end)
+
+GAME:NewButton("Vape Gui v4", "It old but still not bad", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/HULKFree-Script/main/HULKUHUB")()
+end)
+
+local GAME = Tab:NewSection("Pet Simulator X")
+
+GAME:NewButton("Project Meow", "New?", function()
+    loadstring(game:HttpGet"https://pastebin.com/raw/uuPmi7wz")()
+end)
+
+
+local Tab = Window:NewTab("Settings")
+local Settings = Tab:NewSection("Toggling Ui")
+
+Settings:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
+
