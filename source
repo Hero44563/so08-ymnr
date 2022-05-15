@@ -1,0 +1,89 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("HERO HUB", "Synapse")
+
+
+local Tab = Window:NewTab("Main Menu")
+local Section = Tab:NewSection("Admin Script")
+
+Section:NewButton("command admin", "cmdx admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+Section:NewButton("command admin v2(ใช้ยาก)", "infinity yeid admin", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local Section = Tab:NewSection("อื่นๆ")
+
+Section:NewButton("flashlight(เกมผีเท่านั้น)", "แสงโครตสว่าง(กดF)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hero44563/da/main/source",true))()
+end)
+
+Section:NewButton("แช่แข็งตัวเอง(กดสามปุ่มเพื่อดูอธิบายด)", "กดCtrl", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hero44563/fga/main/source",true))()
+end)
+
+local Section = Tab:NewSection("กดCtrlเพื่อแช่แข็ง คนอื่นจะเห็นเราอยู่ที่เดิมแต่เราอยู่ที่อื่น(หมายถึงแช่แข็งตัวเอง)")
+
+Section:NewButton("rejoin", "rejoin why read?", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hero44563/dfgjdfgjdfgjfgh/main/source", true))()
+end)
+
+local Tab = Window:NewTab("GAME")
+local GAME = Tab:NewSection("ABA")
+
+GAME:NewButton("Aba gui", "cheat op", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/travislmao/pub-scripts/main/abagui", true))()
+end)
+
+local GAME = Tab:NewSection("Elemental Awakening")
+
+GAME:NewButton("Farm Lv", "Auto Skill", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/elemental_awakening/main/level_farm'),true))()
+end)
+
+
+GAME:NewButton("Auto Farm Spin (Exotic)", "FAST", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hero44563/asdasfgaqT/main/source'),true))()
+end)
+
+
+GAME:NewButton("Auto Farm Spin (Legendary)", "FAST", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hero44563/agadshjzg/main/source'),true))()
+end)
+
+local GAME = Tab:NewSection("Elemental Awakening SPIN")
+
+GAME:NewButton("Spin (Exotic)", "200 spin", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hero44563/ASgrtdkj/main/source'),true))()
+end)
+
+
+GAME:NewButton("Spin (Legendary)", "350 spin", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hero44563/xrujt6-tcdr/main/source'),true))()
+end)
+
+GAME:NewButton("Spin (Heavenly)", "500 spin", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hero44563/G/main/source'),true))()
+end)
+
+local GAME = Tab:NewSection("Last Pirates")
+
+GAME:NewButton("Last Pirates 1 script Hub", "among us read", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hero44563/G/main/source'),true))()
+end)
+
+local GAME = Tab:NewSection("Blox Fruit")
+
+GAME:NewButton("islandv2", "best system", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/BloxFruit/main/Islandv2.lua"))()
+end)
+
+GAME:NewButton("mokoro hub", "best farm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/BloxFruit/main/Islandv2.lua"))()
+end)
+
+GAME:NewButton("hulk u hub", "best thai kid", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/HULKFree-Script/main/HULKUHUB")()
+end)
+
